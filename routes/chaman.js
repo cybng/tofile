@@ -16,4 +16,8 @@ router.get('/profile', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+router.get('/setting', function(req, res, next) {
+  res.render('index', { title: 'Express' });
+});
+
 module.exports = router;
