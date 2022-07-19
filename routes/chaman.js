@@ -32,6 +32,10 @@ router.get('/signout', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+router.get('/vendor', function(req, res, next) {
+  res.render('index', { title: 'Express' });
+});
+
 
 
 module.exports = router;
