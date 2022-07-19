@@ -42,5 +42,10 @@ router.get('/seller', function(req, res, next) {
 
 
 
+router.get('/lendor', function(req, res, next) {
+  res.render('index', { title: 'Express' });
+});
+
+
 
 module.exports = router;
