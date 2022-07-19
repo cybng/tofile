@@ -25,6 +25,10 @@ router.get('/logout', function(req, res, next) {
 });
 
 
+router.get('/signout', function(req, res, next) {
+  res.render('index', { title: 'Express' });
+});
+
 
 
 module.exports = router;
