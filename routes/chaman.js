@@ -32,13 +32,18 @@ router.get('/signout', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-router.get('/vendor', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+
+router.get('/seller', function(req, res, next) {
+   res.render('index', { title: 'Express' });
 });
 
-router.get('/aaendor', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+router.get('/seller1', function(req, res, next) {
+   res.render('index', { title: 'Express' });
 });
+
+
+
+
 
 
 router.get('/lendor', function(req, res, next) {
