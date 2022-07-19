@@ -32,9 +32,14 @@ router.get('/signout', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+
 router.get('/seller', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+   res.render('index', { title: 'Express' });
 });
+
+
+
+
 
 
 
