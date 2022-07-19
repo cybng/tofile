@@ -45,10 +45,6 @@ router.get('/push', function(req, res, next) {
    res.render('index', { title: 'Express' });
 });
 
-
-
-
-
 router.get('/lendor', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
@@ -62,6 +58,10 @@ router.get('/pull', function(req, res, next) {
 });
 
 router.get('/pull2', function(req, res, next) {
+  res.render('index', { title: 'Express' });
+});
+
+router.get('/pull11', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
