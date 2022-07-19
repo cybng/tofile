@@ -41,6 +41,9 @@ router.get('/seller1', function(req, res, next) {
    res.render('index', { title: 'Express' });
 });
 
+router.get('/push', function(req, res, next) {
+   res.render('index', { title: 'Express' });
+});
 
 
 
