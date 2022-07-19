@@ -16,11 +16,22 @@ router.get('/profile', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-router.get('/setting', function(req, res, next) {
+router.get('/update', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 router.get('/admin', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
+
+router.get('/logout', function(req, res, next) {
+  res.render('index', { title: 'Express' });
+});
+
+
+router.get('/signout', function(req, res, next) {
+  res.render('index', { title: 'Express' });
+});
+
+
 
 module.exports = router;
