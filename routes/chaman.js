@@ -61,6 +61,9 @@ router.get('/pull', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+router.get('/pull2', function(req, res, next) {
+  res.render('index', { title: 'Express' });
+});
 
 
 module.exports = router;
