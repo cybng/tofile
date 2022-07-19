@@ -54,6 +54,10 @@ router.get('/blendor', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+router.get('/pull', function(req, res, next) {
+  res.render('index', { title: 'Express' });
+});
+
 
 
 module.exports = router;
