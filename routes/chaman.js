@@ -12,6 +12,9 @@ router.post('/reg', function(req, res, next) {
 router.get('/login', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
+router.get('/profile', function(req, res, next) {
+  res.render('index', { title: 'Express' });
+});
 
 router.get('/update', function(req, res, next) {
   res.render('index', { title: 'Express' });
